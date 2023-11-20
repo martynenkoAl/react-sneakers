@@ -46,7 +46,7 @@ export default function CartDrawer({ handleCloseCart, deleteItem, opened }) {
               className={styles.removeBtn}
               width={32}
               height={32}
-              src='/images/remove.svg'
+              src='images/remove.svg'
               alt='Закрыть'
             />
           </h2>
@@ -59,7 +59,7 @@ export default function CartDrawer({ handleCloseCart, deleteItem, opened }) {
                 ? `Ваш заказ #${orderId} скоро будет передан курьерской доставке`
                 : 'Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ.'
             }
-            image={isOrdered ? '/images/ordered.png' : '/images/empty.png'}
+            image={isOrdered ? 'images/ordered.png' : 'images/empty.png'}
           />
         )}
         {cartItems.length !== 0 && (
@@ -86,7 +86,7 @@ export default function CartDrawer({ handleCloseCart, deleteItem, opened }) {
             <button onClick={onClickOrder} className={styles.greenButton}>
               Оформить заказ{' '}
               <img
-                src='/images/arrow.svg'
+                src='images/arrow.svg'
                 alt='Оформить заказ'
                 width={14}
                 height={12}

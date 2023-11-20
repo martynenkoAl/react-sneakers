@@ -13,7 +13,7 @@ export default function Info({ title, description, image }) {
         onClick={() => setIsCartOpened(false)}
       >
         <img
-          src='/images/back-arrow.svg'
+          src='images/back-arrow.svg'
           alt='Вернуться назад'
           width={14}
           height={12}

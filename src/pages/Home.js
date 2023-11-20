@@ -16,7 +16,7 @@ export default function Home({
           {searchValue ? `Поиск по запросу: "${searchValue}"` : 'Все кроссовки'}
         </h1>
         <div className='search'>
-          <img src='/images/search.svg' alt='Поиск товаров' />
+          <img src='images/search.svg' alt='Поиск товаров' />
           <input
             type='text'
             value={searchValue}

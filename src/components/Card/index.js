@@ -32,7 +32,7 @@ export default function Card({
           className={styles.favourite}
           width={32}
           height={32}
-          src={isFavourite ? '/images/saved.svg' : '/images/not-saved.svg'}
+          src={isFavourite ? 'images/saved.svg' : 'images/not-saved.svg'}
           alt='Добавить в закладки'
         />
       )}
@@ -48,7 +48,7 @@ export default function Card({
             className='cu-p'
             width={32}
             height={32}
-            src={isAddedItem(id) ? '/images/added.svg' : '/images/plus.svg'}
+            src={isAddedItem(id) ? 'images/added.svg' : 'images/plus.svg'}
             alt='Добавить в корзину'
             onClick={handleAdd}
           />

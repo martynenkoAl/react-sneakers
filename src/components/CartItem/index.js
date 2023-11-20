@@ -14,7 +14,7 @@ export default function CartItem(props) {
         className={styles.removeBtn}
         width={32}
         height={32}
-        src='/images/remove.svg'
+        src='images/remove.svg'
         alt='Удалить из корзины'
       />
     </div>

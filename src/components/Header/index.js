@@ -17,7 +17,7 @@ export default function Header({ handleOpenCart }) {
             className='mr-15'
             width={40}
             height={40}
-            src='/images/logo.png'
+            src='images/logo.png'
             alt='Логотип сайта'
           />
           <div>
@@ -32,7 +32,7 @@ export default function Header({ handleOpenCart }) {
             className='mr-10'
             width={18}
             height={18}
-            src='/images/cart.svg'
+            src='images/cart.svg'
             alt='Корзина покупок'
           />
           <span className={styles.headerPrice}>{totalCost} руб.</span>
@@ -43,7 +43,7 @@ export default function Header({ handleOpenCart }) {
               className='mr-10'
               width={18}
               height={18}
-              src='/images/bookmarks.svg'
+              src='images/bookmarks.svg'
               alt='Закладки'
             />
             <span>Закладки</span>
@@ -55,7 +55,7 @@ export default function Header({ handleOpenCart }) {
               className='mr-10'
               width={18}
               height={18}
-              src='/images/profile.svg'
+              src='images/profile.svg'
               alt='Профиль'
             />
             <span>Профиль</span>
