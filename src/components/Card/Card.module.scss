@@ -1,0 +1,55 @@
+.card {
+  border: 1px solid #f3f3f3;
+  width: 210px;
+  height: 260px;
+  border-radius: 40px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0px 14px 30px 0px #0000000d;
+    transform: translateY(-5px);
+  }
+
+  .favourite {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+
+  .cardBottom {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: -webkit-fill-available;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 13px;
+      color: #bdbdbd;
+    }
+
+    b {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
