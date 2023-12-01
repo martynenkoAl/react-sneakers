@@ -19,3 +19,6 @@ https://martynenkoal.github.io/react-sneakers/
 * SCSS modules
 * JavaScript
 * axios
+
+### Планы по доработке
+* Добавить слайдер на главную страницу
